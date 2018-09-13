@@ -11,6 +11,6 @@ def line(katz_deli)
   puts string
 end
 
-def take_a_number[katz_deli, string]
+def take_a_number(katz_deli, string)
 
 end
