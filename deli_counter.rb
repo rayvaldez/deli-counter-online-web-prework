@@ -11,3 +11,9 @@ def line(katz_deli)
   puts string
 end
 end
+
+def take_a_number(katz_deli, string)
+  katz_deli << string
+  number_in_line = katz_deli.indez(string)
+  puts "Welcome, #{string}. You are number #{number_in_line + 1} in line."
+end
